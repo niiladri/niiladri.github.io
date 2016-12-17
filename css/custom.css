@@ -1,0 +1,20 @@
+body{
+  overflow: hidden;
+}
+
+
+#bg{
+  max-height: 768px;
+}
+
+#me{
+  text-align: center;
+}
+
+#l1{
+  padding-left:150px;
+}
+
+#l2{
+  margin-left:-70px;
+}
