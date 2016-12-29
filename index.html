@@ -10,19 +10,144 @@
 
 	<link href="css/1140.css" rel="stylesheet" type="text/css">
 	<link href="css/custom.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="css/sexy.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+	<style>
+	body {
+	    margin: 0;
+	    font-family: 'Lato', sans-serif;
+	}
+
+	.overlay {
+	    height: 0%;
+	    width: 100%;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background-color: rgb(0,0,0);
+	    background-color: rgba(0,0,0, 0.9);
+	    overflow-y: hidden;
+	    transition: 0.5s;
+	}
+
+	.overlay-content {
+	    position: relative;
+	    top: 25%;
+	    width: 100%;
+	    text-align: center;
+	    margin-top: 30px;
+	}
+
+	.overlay a {
+	    padding: 8px;
+	    text-decoration: none;
+	    font-size: 36px;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+	}
+
+	.overlay a:hover, .overlay a:focus {
+	    color: #f1f1f1;
+	}
+
+	.overlay .closebtn {
+	    position: absolute;
+	    top: 20px;
+	    right: 45px;
+	    font-size: 60px;
+	}
+
+	@media screen and (max-height: 450px) {
+	  .overlay {overflow-y: auto;}
+	  .overlay a {font-size: 20px}
+	  .overlay .closebtn {
+	    font-size: 40px;
+	    top: 15px;
+	    right: 35px;
+	  }
+	}
+	</style>
 
 </head>
 <body>
+
+	<div id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <div class="overlay-content">
+	    <a href="#">About</a>
+	    <a href="#">Services</a>
+	    <a href="#">Résumé</a>
+			<a href="#">Portfolio</a>
+			<a href="#">Testimonials</a>
+	    <a href="#">Contact</a>
+	  </div>
+	</div>
+
+
+<span style="font-size:30px;cursor:pointer;padding-left:10px;" onclick="openNav()">&#9776; </span>
+
+
+
 <div id="bg">
 	<div class="container12">
 		    <ul id="scene">
-						<li class="layer" id="me" data-depth="0.10"><img src="images/me.png"></li>
-						<li class="layer" id="l1" data-depth="0.20"><img src="images/hairport.png"></li>
-						<li class="layer" id="l2" data-depth="0.30"><img src="images/mepower.png"></li>
+						<span><li class="layer" id="me" data-depth="0.10"><img src="images/me.png"></li></span>
+						<span><li class="layer" id="l1" data-depth="0.25"><img src="images/aaf.png" title="a.a.f : awesome as fuck"></li></span>
+
+						<span><li class="layer" id="l3" data-depth="0.35"><img src="images/hair.png"></li></span>
+						<span><li class="layer" id="l4" data-depth="0.15"><img src="images/powers.png"></li></span>
+						<span><li class="layer" id="l5" data-depth="0.29"><img src="images/superpowers.png"></li></span>
+						<span><li class="layer" id="l6" data-depth="0.15"><img src="images/thatsme.png"></li></span>
+
+						<span><li class="layer" id="l2" data-depth="0.20" data-featherlight="#sexy"><img src="images/detailed.png"></li></span>
+
 				</ul>
 	</div>
 
+
 </div>
+
+<br /><br />
+<div id="sexy">
+<img src="images/sexyme.jpg" style="margin-right:-25px; margin-top:-25px ;" align="right"/>
+<h1>
+	Hi! I'm Niladri Chatterjee.
+</h1>
+<br />
+
+<p style="line-height:25px; font-family: 'Arima Madurai', cursive; font-size:18px;"> I am a freelancer. Which means, I work from home. I create websites for your needs. The websites are
+   	beautiful, <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">responsive</a> and blazing fast.
+		Plus, I fill up website with <b>lots of content </b>so that your visitors can find information about your business and also contact you.</p>
+		<br /><p style="line-height:25px; font-family: 'Arima Madurai', cursive; font-size:18px;">Also, I do <b>Search Engine Optimization</b>, which ensures that your websites ranks
+		first in the SERP(<i>Search Engine Results Page</i>). So that you can get a <b>tons of customers</b> from sites like Google or Bing. </p>
+		<br /><p style="line-height:25px; font-family: 'Arima Madurai', cursive; font-size:18px;">Only these things are <i>not</i> always enough to ramp up your revenue. You have to
+		reach out to your <b>potential clients</b>. There comes the <b>Social Media</b>. Social Media basically means Social networking websites such as Facebook, Twitter, Instragram etc. Around <a href="http://www.slideshare.net/wearesocialsg/digital-in-2016">2 Billion
+		people uses Social Media actively</a>. Hence, targetting those places will ensure you <b>thousands of clients</b>.
+
+	<br /><br />But how to connect with this <b>large customer pool?</b> That's when Social Media Marketing comes into action. By creating <b>a huge fan base</b> and <b>advertisment campaigns</b> I'll help you to connect
+with them.
+</p>
+<br /><br />
+<p style="line-height:25px; font-family: 'Arima Madurai', cursive; font-size:18px;">
+And in case you did not read the crap above, here's what my specializations are: <br /><br />
+
+<ul>
+	<li><b>Web Design</b> - HTML5, CSS3, JavaScript, jQuery, Bootstrap, Adobe Muse, Adobe XD, Macaw, Adobe Photoshop, Adobe Dreamweaver</li>
+	<br /><li><b>Web Development</b> - Python, PHP, MySQL, MVC</li>
+	<br /><li><b>Content Writing</b> - Article writing, Editing, Website content, Copywriting, Ghost writing ,Article Spinning </li>
+	<br /><li><b>Search Engine Optimization</b> </li>
+	<br /><li><b>Social Media Marketing</b></li>
+</ul>
+</p>
+<br />
+<br /><br />
+<h2 align="center"> Convinced? <a href="contact.html">Let's talk!</a></h2>
+
+
+</div>
+
 
 <!-- Scripts -->
 	<script src="deploy/parallax.min.js"></script>
@@ -34,6 +159,19 @@
 
 	</script>
 
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+<script src="deploy/sexy.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
 
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
 </body>
 </html>
